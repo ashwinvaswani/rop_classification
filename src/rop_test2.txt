@@ -1,0 +1,28 @@
+Environment onfiguration is:
+MONAI version: 0.4.0
+Numpy version: 1.19.2
+Pytorch version: 1.7.1
+MONAI flags: HAS_EXT = False, USE_COMPILED = False
+MONAI rev id: 0563a4467fa602feca92d91c7f47261868d171a1
+
+Optional dependencies:
+Pytorch Ignite version: NOT INSTALLED or UNKNOWN VERSION.
+Nibabel version: NOT INSTALLED or UNKNOWN VERSION.
+scikit-image version: NOT INSTALLED or UNKNOWN VERSION.
+Pillow version: 8.0.0
+Tensorboard version: NOT INSTALLED or UNKNOWN VERSION.
+gdown version: NOT INSTALLED or UNKNOWN VERSION.
+TorchVision version: 0.2.2
+ITK version: NOT INSTALLED or UNKNOWN VERSION.
+tqdm version: NOT INSTALLED or UNKNOWN VERSION.
+lmdb version: NOT INSTALLED or UNKNOWN VERSION.
+psutil version: NOT INSTALLED or UNKNOWN VERSION.
+
+For details about installing the optional dependencies, please visit:
+    https://docs.monai.io/en/latest/installation.html#installing-the-recommended-dependencies
+
+----------
+epoch 1/1
+saved new best metric model
+current epoch: 1 current accuracy: 0.9458 best accuracy: 0.9458 at epoch: 1
+train completed, best_metric: 0.9458 at epoch: 1
