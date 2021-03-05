@@ -19,11 +19,12 @@ However, the dataset (segmented vessels) must be mounted while running the conta
 
 Below is an example:
 ```
-nvidia-docker run --rm -it -v {Absolute path to segmented images in local system}:/segmented rop_classification:v0
+nvidia-docker run --rm -it -v {Absolute path to segmented images in local system}:/segmented -v {Path to code}:/src rop_classification:v0
 ```
 
 Once inside the container, to load a pre-trained model and run inference, run:
 ```
+cd src
 python3 main.py
 ```
 
